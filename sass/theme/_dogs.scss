@@ -1,0 +1,55 @@
+/**
+*dog
+*/
+
+#wrapper-dogs{
+    background-color: $dark;
+    color:#f3e3e3;
+    padding-top:4rem;
+    padding-bottom:4rem;
+    .wrapper-dognew{
+        display:flex;
+        
+    .dogs{
+       background-color: $light;
+       color: $body-color;
+       display:flex;
+       flex-direction:column;
+       padding: 1rem 1.5rem;
+             .img{
+                 margin-bottom:0.5rem;
+               
+             }
+
+           h1{
+               font-size:1.5rem;
+           }
+          
+           }
+}
+}
+/*single ustory*/
+.single-us_dogs {
+    article{
+        img{
+            margin-bottom: 1.5rem;
+        }
+    }
+        aside{
+            >div{
+                background-color: $dark;
+                color: $white;
+                padding:0.75rem 1.25rem;
+                margin-bottom: 1.5rem;
+                &:last-of-type{
+                    margin-bottom: 0;
+                }
+            }
+            
+        }
+    }
+
+
+    
+
+

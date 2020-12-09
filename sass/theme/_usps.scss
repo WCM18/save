@@ -1,0 +1,28 @@
+#wrapper-usps{
+    
+    text-align: center;
+    .col-md{
+             display:flex;
+             flex-direction:column;
+         .usp{
+            background-color:$light;
+            padding: 1rem 1.5rem;
+                  .fa{
+                      color:$primary;
+                      margin-bottom:0.75rem;
+                  }
+    
+                h1{
+                    font-size:1.5rem;
+                }
+                .btn btn-secondary{
+
+                    background-color: $primary;
+                    border-color: $dark-primary;
+                    border-width: 10px;
+                    color:lighten($primary,15);
+                }
+                }
+    }
+}
+
